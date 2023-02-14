@@ -14,7 +14,7 @@ const Shop = () => {
     };
 
     getCategoriesMap();
-  }, []);
+  }, [dispatch]);
   return (
     <Routes>
       <Route index element={<CategoriesPreview />} />
